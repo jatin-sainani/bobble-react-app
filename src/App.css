@@ -115,6 +115,12 @@ body {
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
 	transition: background-color .218s, border-color .218s ,box-shadow .218s;
 }
+.my-facebook-button-class{
+  width: 15rem;
+  height: 3rem;
+  position: relative;
+  left: -6rem;
+}
 .googleLogo{
   width: 2rem;
   position: relative;
