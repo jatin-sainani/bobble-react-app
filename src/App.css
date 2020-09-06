@@ -120,6 +120,8 @@ body {
   height: 3rem;
   position: relative;
   left: -6rem;
+  background-color: white;
+  box-shadow: -0px 5px 8px #7e7c7c;
 }
 .googleLogo{
   width: 2rem;
