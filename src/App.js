@@ -28,7 +28,6 @@ function App() {
                         <img className="googleLogo" src={googleLogo}></img>
                       </div>
                     <p>Sign Up with Google</p>
-                    // Add the button herer later
                   </div>
                 </a>
             </div>
