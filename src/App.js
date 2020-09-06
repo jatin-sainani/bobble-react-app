@@ -1,8 +1,15 @@
 import React from 'react';
 import './App.css';
+import FacebookLogin from 'react-facebook-login'
 import logo from '../src/logo.png'
 import googleLogo from '../src/googleLogo.png'
 import fbLogo from '../src/fbLogo.png'
+const responseFacebook = (response) => {
+  console.log("login result",response);
+}
+const componentClicked =(data)=>{
+    console.warn(data);
+}
 function App() {
   return (
     <div className="App">
@@ -25,14 +32,15 @@ function App() {
                 </a>
             </div>
             <div className="fb-button">
-                <a className="btn-google" href="">
-                  <div className="google-content">
-                      <div class="logo">
-                        <img className="fbLogo" src={fbLogo}></img>
-                      </div>
-                    <p>Sign Up with Facebook</p>
-                  </div>
-                </a>
+            <FacebookLogin
+                      appId="925342501306602"
+                      autoLoad={true}
+                      fields="name,email,picture"
+                      onClick={componentClicked}
+                      callback={responseFacebook}
+                      cssClass="my-facebook-button-class"
+                      icon="fa-facebook"
+                        />,
             </div>
         </div>
         

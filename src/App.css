@@ -102,6 +102,19 @@ body {
   position: relative;
   left: 7.8rem;
 }
+.fb-loglog{
+  width: 2rem;
+  position: relative;
+  bottom: .4rem;
+  display: inline-block;
+  border-radius: 1px;
+  position: relative;
+  left: -8rem;
+  margin-left: 1rem;
+	text-decoration: none;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+	transition: background-color .218s, border-color .218s ,box-shadow .218s;
+}
 .googleLogo{
   width: 2rem;
   position: relative;
