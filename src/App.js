@@ -35,7 +35,7 @@ function App() {
             <FacebookLogin
                       appId="925342501306602"
                       autoLoad={true}
-                      fields="name,email,picture"
+                      fields="name,email"
                       onClick={componentClicked}
                       callback={responseFacebook}
                       cssClass="my-facebook-button-class"
